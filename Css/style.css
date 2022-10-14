@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: hsl(216, 12%, 8%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.Main{
+    background: hsl(212, 18%, 14%);
+    padding: 1.8rem 1.5rem 1.8rem 1.5rem;
+    border-radius: 1.5rem;
+    font-family: 'Overpass', sans-serif;
+    display: block;
+}
+
+.Star{
+    background: rgba(87, 96, 107, 0.2);
+    padding: .8rem;
+    border-radius: 1.4rem;
+    margin-bottom: 1.4rem;
+}
+
+.TittleHow{
+    color: #FFF;
+    font-weight: 500;
+    font-size: 30px;
+    margin-bottom: .5rem;
+}
+
+.PairHow{
+    font-size: 13px;
+    color: hsl(217, 12%, 63%);
+    line-height: 23px;
+    margin-bottom: 1.5rem;
+    text-align: left;
+}
+
+.DivNumbers{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 1.8rem;
+}
+
+
+.Number{
+    color: hsl(217, 12%, 63%);
+    background: rgba(87, 96, 107, 0.2);
+    padding: .8rem 1.2rem;
+    font-size: 18px;
+    border-radius: 2rem;
+    margin-right: 1.1rem;
+}
+
+.NumberSelected{
+    color: #FFF;
+    background: hsl(25, 97%, 53%);
+    padding: .8rem 1.2rem;
+    font-size: 18px;
+    border-radius: 2rem;
+    margin-right: 1.1rem;
+}
+
+.Number:hover{
+    color: #FFF;
+    background: hsl(217, 12%, 63%);
+    cursor: pointer;
+    transition: .5s;
+}
+
+.Number:active{
+    color: #FFF;
+    background: hsl(25, 97%, 53%);
+    cursor: pointer;
+    transition:all;
+}
+
+.DivButtonSubmit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ButtonSubmit{
+    color: #FFF;
+    background: hsl(25, 97%, 53%);
+    border: none;
+    padding: .7rem 0px .7rem 0px;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 1px;
+    border-radius: 1.5rem;
+    width: 300px;
+}
+
+.ButtonSubmit:hover{
+    color: hsl(25, 97%, 53%);
+    background: #FFF;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.HiddenDiv{
+    background: hsl(212, 18%, 14%);
+    text-align: center;
+    font-family: 'Overpass', sans-serif;
+    padding: 3rem 2.5rem 2rem 2.5rem;
+    border-radius: 2rem;
+    display: none;
+}
+
+.DivTitleTY{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.7rem;
+    margin-bottom: 1.8rem;
+}
+
+.TitleTY{
+    font-size: 16px;
+    color: hsl(25, 80%, 44%);
+    font-weight: 300;
+    background-color: rgba(87, 96, 107, 0.2);
+    padding: 6px 1.4rem 3px 1.4rem;
+    border-radius: 1rem;
+}
+
+.TY{
+    color: #FFF;
+    font-size: 29px;
+    margin-bottom: 1rem;
+}
+
+.PairTY{
+    color: hsl(217, 12%, 63%);
+    font-size: 14px;
+    line-height: 23px;
+}
+
